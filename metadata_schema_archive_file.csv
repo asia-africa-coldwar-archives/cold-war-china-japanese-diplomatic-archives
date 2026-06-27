@@ -1,0 +1,13 @@
+﻿field_name,required,type,description,example
+archive_id,yes,string,Archive identifier assigned by the holding archive or archival classification system.,2013-2495
+title_jp,yes,string,Original Japanese archival title.,??????????
+title_en,yes,string,Standardized English title for public database display.,Sino-Indian Border Conflict
+years,no,string,Covered year or year range represented by the file. Use ISO-like ranges when known.,1962
+countries,no,string,Controlled country or polity vocabulary; separate multiple values with semicolons.,China; India
+regions,no,string,Controlled regional vocabulary for broad filtering; separate multiple values with semicolons.,Asia
+keywords,no,string,Topical tags; separate multiple values with semicolons.,Border conflict; Cold War
+access_jp,yes,string,Availability status in Japanese as recorded or normalized from the source list.,????
+access_en,yes,string,Availability status in English.,Partially Public
+source_archive,yes,string,Holding archive or source institution.,Diplomatic Archives of the Ministry of Foreign Affairs of Japan
+source_url,no,url,"Official catalog, search, or public access URL when available.",https://da.mofa.go.jp/
+notes,no,text,"Editorial notes, translation notes, research notes, or caveats.","The original Japanese title uses ??, a historical term for the PRC."

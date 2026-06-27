@@ -1,0 +1,24 @@
+Controlled vocabulary: regions v02
+===================================
+
+Records in vocabulary: 21
+Duplicate region_ids: 0
+Missing broader_region references: 0
+Region IDs used in tagged_v03_1 but missing from vocabulary: 0
+
+Changes from supplied version:
+- Added AFRO_ASIA for Bandung, Asian-African Conference, AAPSO, and Afro-Asian solidarity records.
+- Added CARIBBEAN for Caribbean countries/territories in Latin America and voting-attitude files.
+- Revised GLOBAL so UN/ICJ are not treated as regions; those should go in organization_ids.
+- Regenerated this summary in UTF-8 to avoid mojibake in Japanese terms.
+
+Design principles:
+- region_ids describe the main geographic subject or geographic scale.
+- reaction_region_ids can reuse this vocabulary for response/source regions, but should be stored in a separate column.
+- UN, ICJ, UNGA, WMO, OAU etc. are organizations and should be stored in organization_ids.
+- SOCIALIST_BLOC, WESTERN_BLOC, ARAB_WORLD, UNSC_MEMBERS etc. are blocs/groupings and should be stored in bloc_ids, not region_ids.
+- Preserve historical source expressions such as 中近東, 南部アフリカ, and 中国・アジア諸国 in original_terms.
+
+Suggested files to create next:
+- controlled_vocabulary_organizations.csv
+- controlled_vocabulary_blocs.csv

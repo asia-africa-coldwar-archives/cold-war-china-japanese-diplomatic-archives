@@ -1,0 +1,30 @@
+﻿Cultural Revolution event update v08
+
+追加した event_id:
+- CULTURAL_REVOLUTION_1966_1976
+  - preferred_label_en: Cultural Revolution
+  - preferred_label_jp: 文化大革命／文革
+  - event_type: historical process / political campaign
+  - event_scope: multi-year historical process
+  - start_date: 1966-05
+  - end_date: 1976-10
+
+設計判断:
+- 文化大革命は会議・総会ではなく、複数年にわたる歴史的過程として event_ids に入れる。
+- 「文革」で検索できるよう、aliases_original_terms に 文化大革命;文革;Cultural Revolution;Great Proletarian Cultural Revolution;GPCR を入れた。
+- ただし、PRC/中共関係史料に一律付与しない。
+- 特に1966-1967年資料は重要だが、現在のv07には開始・終了年月日の列が無いため、日付と文脈確認が必要。
+
+作成ファイル:
+- controlled_vocabulary_events_v02.csv
+- japanese_diplomatic_archives_tagged_v08_cultural_revolution_event.csv
+- event_review_queue_cultural_revolution_v01.csv
+
+運用方針:
+- 原文に「文化大革命」「文革」「Cultural Revolution」があれば ASSIGNED_SOURCE_EXPLICIT。
+- 年代が1966-1967でも、単なる同時期の中国関係史料というだけでは付与しない。
+- 文革の外交的影響、対外関係への波及、紅衛兵外交、対外宣伝、在外公館・外国人対応、中ソ対立への文革影響などが確認できる場合に付与。
+
+次工程:
+- event_review_queue_cultural_revolution_v01.csv の候補について、MOFA DAの開始年月日・終了年月日・目次を確認する。
+- 確認できた行を v09_cultural_revolution_checked.csv に反映する。

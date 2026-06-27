@@ -1,0 +1,41 @@
+﻿event_ids 初期整理 v07
+
+作成ファイル:
+- controlled_vocabulary_events.csv
+- japanese_diplomatic_archives_tagged_v07_event_checked.csv
+
+初期 event vocabulary:
+1. BANDUNG_1955
+   Asian-African Conference / Bandung Conference
+2. SECOND_AA_CONF_1965_PLANNED
+   Planned Second Asian-African Conference
+3. AAPSO_CONFERENCE_SERIES
+   Afro-Asian People's Solidarity Conference / AAPSO conference series
+4. NAM_SUMMIT_3_1970
+   Third Conference of Heads of State or Government of Non-Aligned Countries
+5. UNGA_30_1975
+   30th Session of the United Nations General Assembly
+6. UNCTAD_III_1972
+   Third Session of UNCTAD
+
+基本方針:
+- event_ids は会議・総会・首脳会議・会議系列を表す。
+- organization_ids は主催・制度組織を表す。
+- bloc_ids は政治的・外交的集団、交渉グループ、陣営を表す。
+- keyword_ids は主題を表す。
+
+重要な区別:
+- BANDUNG_1955 は event_id。AFRO_ASIA は region_id。AFRO_ASIAN_BLOC は bloc_id。
+- UNCTAD_III_1972 は event_id。UNCTAD は organization_id。GROUP_OF_77/GROUP_B は bloc_id。
+- NAM_SUMMIT_3_1970 は event_id。NON_ALIGNED_MOVEMENT は bloc_id。
+- AAPSO_CONFERENCE_SERIES は event_id。AAPSO は organization_id。
+
+付与件数:
+- event_ids assigned: 8 rows
+- no event assigned: 62 rows
+
+次の検討候補:
+- Cambodia international conference records
+- Embassy chiefs conferences
+- Zhou Enlai visits / Nixon PRC visit as possible visit_event_ids
+- Japan-PRC normalization as a diplomatic event/process

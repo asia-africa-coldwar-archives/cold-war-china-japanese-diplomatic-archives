@@ -1,0 +1,10 @@
+﻿B'.2.5.0.1-1 update
+
+Created:
+- japanese_diplomatic_archives_tagged_v22_icj_bloc_checked.csv
+
+Main record changes:
+- archive_id B'.2.5.0.1-1 bloc_ids set to SOCIALIST_BLOC.
+- bloc_assignment_status set to RESOLVED_ASSIGN; confidence HIGH.
+- Evidence: source table of contents explicitly separates 共産圏諸国 from Security Council members, Asia-Africa, Europe, and Americas.
+- AFRO_ASIAN_BLOC is not assigned because アジア・アフリカ is treated as a geographic/national filing category here.

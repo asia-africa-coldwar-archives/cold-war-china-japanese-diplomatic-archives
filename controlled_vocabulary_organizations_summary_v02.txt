@@ -1,0 +1,10 @@
+﻿controlled_vocabulary_organizations_v02.csv 修正概要
+
+追加した organization_id:
+- NATO: North Atlantic Treaty Organization / 北大西洋条約機構
+- LAS: League of Arab States / アラブ連盟
+
+理由:
+- controlled_vocabulary_blocs_v02.csv の related_organization_ids で WESTERN_BLOC -> NATO、ARAB_STATES_GROUP -> LAS を参照しているため。
+- NATO は WESTERN_BLOC とは別。NATO は正式組織・軍事同盟、WESTERN_BLOC はより広い政治的陣営。
+- LAS は ARAB_STATES_GROUP とは別。LAS は正式組織、ARAB_STATES_GROUP はアラブ諸国が外交・投票・交渉上の集団として扱われる場合の bloc_id。

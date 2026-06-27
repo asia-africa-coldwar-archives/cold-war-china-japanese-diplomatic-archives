@@ -1,0 +1,12 @@
+﻿original_term,language,interpreted_entity,preferred_label_en,scope_note
+中共,ja,PRC,People's Republic of China,Historical Japanese term commonly used in MOFA records before Japan-PRC normalization.
+中華人民共和国,ja,PRC,People's Republic of China,Formal Japanese name for the PRC.
+北京政府,ja,PRC,People's Republic of China,Use when the record clearly means the PRC government in Beijing.
+Communist China,en,PRC,People's Republic of China,Historical English term for the PRC in Cold War records.
+国府,ja,ROC,Republic of China,Japanese shorthand for the Nationalist Government / Republic of China government.
+中華民国,ja,ROC,Republic of China,Formal Japanese name for the ROC.
+Nationalist China,en,ROC,Republic of China,Cold War English term for the ROC/Nationalist Government.
+台湾,ja,TWN,Taiwan,Use for Taiwan as territory/place/society or Taiwan question; use ROC when the government actor is intended.
+Taiwan,en,TWN,Taiwan,"Taiwan as place, society, territory, or Taiwan question."
+中国,ja,CHN_AMBIG,China (ambiguous/representation question),Use only when the source term is ambiguous between PRC/ROC or concerns the China representation question itself.
+China,en,CHN_AMBIG,China (ambiguous/representation question),Use only when the source term is ambiguous or institutional representation is at issue.

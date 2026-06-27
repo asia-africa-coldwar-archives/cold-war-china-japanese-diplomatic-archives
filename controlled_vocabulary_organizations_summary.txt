@@ -1,0 +1,11 @@
+Controlled vocabulary: organizations
+====================================
+
+Records in vocabulary: 10
+Organization IDs used in tagged_v03_2: 7
+Missing organization IDs in vocabulary: 0
+
+Design principles:
+- organization_ids store institutions and intergovernmental bodies, not regions.
+- Use region_ids for geographic scale and bloc_ids for ideological/geopolitical blocs.
+- UN organs and specialized agencies should use specific IDs when known.
