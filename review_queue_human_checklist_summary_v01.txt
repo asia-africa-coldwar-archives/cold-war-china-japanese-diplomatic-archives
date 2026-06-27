@@ -1,0 +1,16 @@
+﻿review_queue_human_checklist_v01 summary
+
+This checklist tells the human reviewer where to look and what to decide for the three open review queues:
+- bloc_review_queue_v02.csv
+- event_review_queue_v01.csv
+- event_review_queue_cultural_revolution_v01.csv
+
+Recommended order:
+1. Confirm likely event assignments with direct current records: Cambodia 1981, UN China representation 1971, Sino-Indian mediation, AAPSO individual conferences.
+2. Confirm bloc questions only where source wording indicates collective action.
+3. Process Cultural Revolution candidates by checking dates first, then TOC/body context.
+4. Search unmatched event candidates separately: UNGA 36 and Tricontinental Conference.
+
+General rule:
+- Do not assign bloc_ids or event_ids from association alone.
+- Confirm with MOFA material-detail metadata, TOC, or document images.

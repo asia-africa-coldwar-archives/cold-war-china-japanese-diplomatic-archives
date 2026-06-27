@@ -1,0 +1,23 @@
+﻿Subject view update v12
+
+User-proposed display language:
+- Primary subject: International Conference on Cambodia
+- Related analytical concepts: Vietnam-Cambodia Conflict; Communist Politics in Southeast Asia; Communist Party Politics; Cold War in Southeast Asia
+
+Actions:
+1. Added analytical context:
+   - COMMUNIST_PARTY_POLITICS = Communist Party Politics / 共産党政治
+
+2. Created public display fields in japanese_diplomatic_archives_tagged_v12_subject_view.csv:
+   - primary_subject_en
+   - primary_subject_jp
+   - related_analytical_concepts_en
+   - related_analytical_concepts_jp
+
+3. Created focused view:
+   - archive_records_public_subject_view_v01.csv
+
+Design distinction:
+- This display view is concise and researcher-facing.
+- It does not remove the richer backend tags such as INDOCHINA_CONFLICT, ASEAN_DIPLOMACY, PRC_VIETNAM_RIVALRY, or REGIONAL_IDEOLOGICAL_CONFLICT.
+- Public subject/concepts are a curated presentation layer; controlled tags remain available for search and filtering.

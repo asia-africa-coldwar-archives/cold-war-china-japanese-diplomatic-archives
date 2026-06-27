@@ -1,0 +1,12 @@
+﻿controlled_vocabulary_events_v05 parent update
+
+Updated event:
+- NAM_SUMMIT_3_1970
+
+Values:
+- parent_event_id: NAM_SUMMIT_SERIES
+- edition_number: 3
+- event_status: held
+
+Reason:
+- NAM_SUMMIT_SERIES is a cleaner parent identifier than NON_ALIGNED_SUMMIT_SERIES and matches the canonical abbreviation NAM used in the vocabulary.

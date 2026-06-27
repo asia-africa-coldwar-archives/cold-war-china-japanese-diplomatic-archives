@@ -1,0 +1,10 @@
+﻿2010-1215 update
+
+Created:
+- japanese_diplomatic_archives_tagged_v21_un_2010_1215_bloc_checked.csv
+
+Main record changes:
+- archive_id 2010-1215 bloc_ids left blank; bloc_assignment_status set to RESOLVED_BLANK.
+- organization_ids confirmed as UN;UNGA.
+- event_ids confirmed as UNGA_30_1975.
+- Regional invitation lunches are treated as schedule/event categories, not blocs.

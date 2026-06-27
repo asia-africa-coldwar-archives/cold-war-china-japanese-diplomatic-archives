@@ -1,0 +1,16 @@
+﻿Bloc review update for archive_id 2014-4133
+
+Updated queue:
+- bloc_review_queue_v04.csv
+- archive_id: 2014-4133
+- review_status: RESOLVED_BLANK
+
+Updated record file:
+- japanese_diplomatic_archives_tagged_v13_bloc_review_checked.csv
+
+Decision:
+- bloc_ids remains blank.
+- The record collects reactions of government figures and overseas reporting by region.
+- Western Europe, Eastern Europe, Asia, Africa, etc. are regional reporting categories, not collective diplomatic actors.
+- No bloc_ids are assigned because there is no evidence of a joint statement, unified vote, common negotiating position, or formal regional group action.
+- Colonial legacy tags are not assigned because individual countries are not identified.

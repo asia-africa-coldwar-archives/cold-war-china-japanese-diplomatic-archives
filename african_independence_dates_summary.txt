@@ -1,0 +1,9 @@
+African independence dates CSV
+==============================
+
+Records: 54
+Year of Africa 1960 records: 17
+Source: Encyclopaedia Britannica, List of African Countries Independence Dates
+https://www.britannica.com/topic/list-of-African-Countries-Independence-Dates
+
+Notes: Egypt, Ethiopia, Liberia, Libya, Namibia, Somalia, Tanzania, South Africa, Guinea-Bissau, and Zimbabwe include special historical notes.

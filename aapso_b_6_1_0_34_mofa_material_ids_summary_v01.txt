@@ -1,0 +1,18 @@
+﻿B'.6.1.0.34 AAPSO volume/material ID update
+
+Created:
+- japanese_diplomatic_archives_tagged_v29_aapso_volumes_mofa_material_ids.csv
+
+Change:
+- Split B'.6.1.0.34 into four volume-level rows.
+- Volume 1 mapped to MOFA material id 100-023523.
+- Volume 2 mapped to MOFA material id 100-023524.
+- Volume 3 mapped to MOFA material id 100-023525.
+- Volume 4 mapped to MOFA material id 100-013468.
+- Preserved AAPSO organization_ids and AAPSO_CONFERENCE_SERIES event_ids.
+
+Source URLs:
+- https://da.mofa.go.jp/material-detail?id=100-023523
+- https://da.mofa.go.jp/material-detail?id=100-023524
+- https://da.mofa.go.jp/material-detail?id=100-023525
+- https://da.mofa.go.jp/material-detail?id=100-013468

@@ -1,0 +1,15 @@
+﻿B'.6.1.0.34 AAPSO bloc review update
+
+Created:
+- japanese_diplomatic_archives_tagged_v30_aapso_bloc_review_checked.csv
+- aapso_volume_detail_review_queue_v01.csv
+
+Main record changes:
+- All four B'.6.1.0.34 volume rows set to bloc_assignment_status = RESOLVED_BLANK.
+- bloc_ids left blank for all four volume rows.
+- AAPSO retained in organization_ids.
+- AAPSO_CONFERENCE_SERIES retained in event_ids.
+- Added review note: do not assign AFRO_ASIAN_BLOC based only on the Asia-Africa name.
+
+Review queue:
+- Created volume-level queue for checking individual conference names, locations, and participating actors from each MOFA table of contents.

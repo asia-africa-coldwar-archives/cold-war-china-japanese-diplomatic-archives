@@ -1,0 +1,15 @@
+﻿Bloc review update for archive_id 2014-4131
+
+Updated queue:
+- bloc_review_queue_v05.csv
+- archive_id: 2014-4131
+- review_status: RESOLVED_BLANK
+
+Updated record file:
+- japanese_diplomatic_archives_tagged_v15_bloc_review_2014_4131.csv
+
+Decision:
+- bloc_ids remains blank.
+- The file is a country/regional situation report in which overseas missions replied to Foreign Ministry instructions before the 26th UN General Assembly in autumn 1971.
+- Europe, Eastern Europe, Asia, Africa, etc. are reporting categories, not collective blocs.
+- No evidence of joint statement, unified vote, or common negotiating position by a regional group.

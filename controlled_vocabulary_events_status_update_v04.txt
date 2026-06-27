@@ -1,0 +1,19 @@
+﻿controlled_vocabulary_events_v04 status update
+
+Updated event:
+- SECOND_AA_CONF_1965_PLANNED
+
+Values:
+- parent_event_id: ASIAN_AFRICAN_CONFERENCE_SERIES
+- edition_number: 2
+- event_status: planned_not_held
+
+Reason:
+- The planned Second Asian-African Conference should not be treated as simply held or merely postponed in the database.
+- planned_not_held is more precise for search/filtering and historical interpretation.
+
+Current event_status vocabulary includes:
+- held
+- planned_not_held
+- series
+- historical_process

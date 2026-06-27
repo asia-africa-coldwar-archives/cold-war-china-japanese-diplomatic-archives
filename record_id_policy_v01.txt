@@ -1,0 +1,25 @@
+﻿record_id policy v01
+
+Rule:
+1. If mofa_material_id exists, record_id = mofa_<mofa_material_id normalized with underscores>.
+   Example: 100-013444 -> mofa_100_013444
+
+2. If mofa_material_id is not yet known, record_id = legacy_<archive_id normalized>.
+   Example: 2015-2085 -> legacy_2015_2085
+
+3. If the row has a volume but no mofa_material_id, append _vol<volume> to the legacy fallback.
+   Example: B'.6.1.0.34 volume 4 -> legacy_b_6_1_0_34_vol4
+
+4. Preserve original classification in legacy_archive_id.
+5. Preserve fallback human-readable key in legacy_record_id.
+6. Once mofa_material_id is confirmed, record_id should migrate to the mofa_* form. legacy_record_id remains for crosswalk and search.
+
+Stats:
+- total_records: 74
+- mofa_record_ids: 6
+- legacy_fallback_record_ids: 68
+- duplicate_record_ids: 0
+
+Created files:
+- japanese_diplomatic_archives_tagged_v32_record_id_added.csv
+- japanese_diplomatic_archives_records_normalized_v01.csv

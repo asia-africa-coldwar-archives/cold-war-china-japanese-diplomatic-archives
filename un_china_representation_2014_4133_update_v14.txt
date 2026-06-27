@@ -1,0 +1,23 @@
+﻿UN China representation reactions update v14
+
+Applied to archive_id: 2014-4133
+
+User-provided fields applied:
+- region_ids = GLOBAL;EAST_ASIA
+- reaction_region_ids = NORTH_AMERICA;WESTERN_EUROPE;EUROPE;ASIA;EASTERN_EUROPE;OCEANIA;LATIN_AMERICA;AFRICA;MIDEAST
+- entity_ids = PRC;ROC;USA;AUS;NZL
+- organization_ids = UN;UNGA
+- bloc_ids = blank
+- event_ids = UNGA_26_1971
+- keyword_primary = UN_CHINA_REPRESENTATION_ISSUE
+- keyword_secondary = PRC_UN_REPRESENTATION;ROC_UN_REPRESENTATION;PRC_ROC_COMPETITION;GOVERNMENT_REACTIONS;FOREIGN_GOVERNMENT_ATTITUDES;INTERNATIONAL_REACTION;MEDIA_REACTIONS
+- analytical_context_ids = DECOLONIZATION_AND_UN_DIPLOMACY;POSTCOLONIAL_STATES_AND_CHINA_REPRESENTATION;THIRD_WORLD_RESPONSES_TO_CHINA_REPRESENTATION
+
+Created/updated vocabularies:
+- controlled_vocabulary_events_v08.csv adds UNGA_26_1971
+- controlled_vocabulary_keywords_v05.csv adds UN China representation/reaction keywords
+- controlled_vocabulary_analytical_contexts_v03.csv adds decolonization/postcolonial/Third World response contexts
+
+Interpretive rule:
+- region/reaction_region tags describe where reactions are organized from.
+- bloc_ids remain blank because the record does not show joint statement, unified vote, or common negotiating position by a regional group.

@@ -1,0 +1,71 @@
+﻿bloc_tagging_trial_v01.xlsx チェック結果
+
+対象:
+- C:\Users\mikir\Downloads\bloc_tagging_trial_v01.xlsx
+
+シート構成:
+- Trial_Metadata: 70 rows / 21 columns
+- Review_Queue: 15 rows / 13 columns
+- Summary: 18 rows
+- Bloc_Vocabulary: 13 rows / 15 columns
+
+全体評価:
+- Excelの構造は良好。
+- Trial_Metadata、Review_Queue、Bloc_Vocabulary が分かれており、レビュー作業用ブックとして扱いやすい。
+- bloc_ids の語彙参照切れはなし。
+- archive_id や基本列の構造も、CSV版と整合している。
+
+重要な注意:
+- このExcelは、確認済み更新を反映する前の v05 bloc trial 相当。
+- すでに作成済みの japanese_diplomatic_archives_tagged_v06_bloc_checked.csv / bloc_review_queue_v02.csv の内容とは、2件だけ差分がある。
+
+v06との差分:
+1. 2013-0327 ニュー・ジーランド外交
+   Excel側:
+   - original_terms が空欄
+   - bloc_ids は ASIAN_FREE_WORLD;ASIAN_COMMUNIST_BLOC で正しい
+   - status/confidence も ASSIGNED_SOURCE_EXPLICIT/HIGH で正しい
+
+   v06側で追加済み:
+   - original_terms: アジア自由圏;アジア共産圏;アジア自由圏・ASEAN
+   - bloc_evidence: MOFA DA TOC explicitly includes 「アジア自由圏・ASEAN」, 「アジア自由圏」, and 「アジア共産圏」.
+   - bloc_review_notes: material-detail id=100-077384 による確認済み注記
+
+2. 2013-2435 中共・中近東、アフリカ諸国関係
+   Excel側:
+   - original_terms: 中共
+   - bloc_ids: NON_ALIGNED_MOVEMENT
+   - bloc_assignment_status: ASSIGNED_NEEDS_CONFIRMATION
+   - bloc_confidence: MEDIUM
+
+   v06側で更新済み:
+   - original_terms: 中共;第三回非同盟諸国首脳会議
+   - bloc_assignment_status: ASSIGNED_SOURCE_EXPLICIT
+   - bloc_confidence: HIGH
+   - bloc_evidence: MOFA DA TOC explicitly includes 「第三回非同盟諸国首脳会議」.
+   - bloc_review_notes: material-detail id=100-070338 による確認済み注記
+
+Review_Queue の差分:
+- Excel側では BR-001, BR-002 が OPEN のまま。
+- v02 CSV側では BR-001, BR-002 は RESOLVED。
+- その他13件は OPEN のままでよい。
+
+Bloc_Vocabulary シートの差分:
+- bloc_id の不足・余分なIDはなし。
+- ただし controlled_vocabulary_blocs_v02.csv と比較すると以下3件の補強が未反映。
+  1. NON_ALIGNED_MOVEMENT: aliases_original_terms と notes
+  2. AFRO_ASIAN_BLOC: notes
+  3. ARAB_STATES_GROUP: notes
+
+フィードバック:
+- このExcelを作業用として継続するなら、v06 CSV / review_queue_v02 / controlled_vocabulary_blocs_v02 の内容でExcelを更新した方がよい。
+- 現時点で公開DB用の正本にするべきなのは、Excelではなく outputs 内の v06 CSV 群。
+- Excel版は「v05時点の試行ブック」として保存するなら問題ないが、最新版として使うなら更新が必要。
+
+推奨次工程:
+- 必要なら bloc_tagging_trial_v02.xlsx を作成する。
+- 中身は以下を統合:
+  - japanese_diplomatic_archives_tagged_v06_bloc_checked.csv
+  - bloc_review_queue_v02.csv
+  - controlled_vocabulary_blocs_v02.csv
+  - bloc_check_summary_v06.txt の要点

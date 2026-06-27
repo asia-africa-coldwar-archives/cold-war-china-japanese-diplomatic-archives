@@ -1,0 +1,16 @@
+﻿2015-2086 update
+
+Created:
+- japanese_diplomatic_archives_tagged_v18_un_china_2015_2086_bloc_event.csv
+- controlled_vocabulary_events_v09.csv
+- controlled_vocabulary_keywords_v08.csv
+
+Main record changes:
+- archive_id 2015-2086 bloc_ids left blank; bloc_assignment_status set to RESOLVED_BLANK.
+- Added user reviewer note explaining regional headings are reporting categories, not blocs.
+- Added event_ids: NIXON_VISIT_TO_PRC_ANNOUNCEMENT_1971;UNGA_26_1971.
+- Added keyword coverage for US-PRC rapprochement, Nixon visit, Japanese diplomatic reporting, PRC/ROC competition, voting behavior and vote counting.
+
+Vocabulary changes:
+- Added event NIXON_VISIT_TO_PRC_ANNOUNCEMENT_1971 dated 1971-07-15.
+- Added keywords US_PRC_RAPPROCHEMENT and NIXON_VISIT_TO_PRC.

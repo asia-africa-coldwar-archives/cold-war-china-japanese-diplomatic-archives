@@ -1,0 +1,13 @@
+﻿test record update summary: 100-030772
+created_at: 2026-06-25 22:20:29 +09:00
+added_record_id: mofa_100_030772
+title_jp: 中華人民共和国内政並びに国情関係雑件　独立関係（承認問題を含む）　第3巻
+title_en: Miscellaneous Records on Domestic Affairs and Conditions in the People's Republic of China: Independence and Recognition Issues (Vol. 3)
+entities_added_to_vocab_v07: CUB; NYASALAND; PRT; FRG; MYS; POL; YEM; ETH; SLE; NGA; DNK; ZMB; SDN; BEN; MWI; TUN; KWT
+keywords_added_to_vocab_v15: DIPLOMATIC_RECOGNITION; GOVERNMENT_RECOGNITION_ISSUE; RECOGNITION_COMPETITION
+public_records_count: 76
+record_tags_count: 588
+public_tag_labels_v03_count: 190
+missing_public_tag_labels_v03_count: 0
+public_search_index_count: 76
+notes: Added as a workflow test record from user-provided MOFA material detail; MOFA API checked for core identifiers and date range.

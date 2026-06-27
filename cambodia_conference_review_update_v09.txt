@@ -1,0 +1,35 @@
+﻿Cambodia international conference review update v09
+
+User-provided evidence:
+- archive_id: 2014-3472
+- title: 国連カンボディア問題国際会議
+- TOC includes:
+  - 一般
+  - 経緯
+  - 国連からの会議、諸外国の動向等に関する報告（含、日本の対応）
+  - 諸外国の会議に関する考え方（含、日本の対応）
+  - regional/country sections: 中近東・アフリカ諸国, パラグアイ, ヴェネズエラ, 米国, 欧州諸国, アジア諸国, タイ, シンガポール, マレイシア, フィリピン, インドネシア, ヴィエトナム, ラオス, 中国, 豪州
+  - 国際会議 宣言案
+  - 園田外務大臣演説
+  - ASEANの宣言案に対する中国の見解
+  - 園田外務大臣日程、各国出席者
+  - 参考資料: 「カンボディア問題国際会議」「世界の動き」等; 国連第36回総会及びアド・ホック委員会
+
+Changes made:
+1. controlled_vocabulary_events_v07.csv
+   - Added CAMBODIA_INTL_CONFERENCE_1981.
+
+2. japanese_diplomatic_archives_tagged_v09_event_review_checked.csv
+   - Added event_ids=CAMBODIA_INTL_CONFERENCE_1981 to archive_id 2014-3472.
+
+3. event_review_queue_v02.csv
+   - EV-003 marked RESOLVED.
+   - EV-002 remains OPEN but now notes that 2014-3472 includes reference materials on UNGA 36 and the ad hoc committee.
+
+4. bloc_review_queue_v03.csv
+   - BR-015 marked RESOLVED.
+   - Decision: keep bloc_ids blank. The TOC shows regional/country reporting categories, not formal/coordinated bloc action.
+
+Interpretive note:
+- The user correctly identified 「国連からの会議、諸外国の動向等に関する報告」 and 「諸外国の会議に関する考え方」 as the key evidence.
+- This confirms the event assignment but not bloc assignment.

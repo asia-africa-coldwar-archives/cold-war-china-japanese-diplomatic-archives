@@ -1,0 +1,35 @@
+﻿controlled_vocabulary_events_v03 schema update
+
+Added fields:
+- parent_event_id
+- edition_number
+- event_status
+
+Purpose:
+- parent_event_id groups repeated meetings or event series.
+- edition_number records the official/session number when available.
+- event_status distinguishes held events, planned/postponed events, event series, and historical processes.
+
+Current event_status values:
+- held
+- planned_postponed
+- series
+- historical_process
+
+Assigned parent_event_id values:
+- ASIAN_AFRICAN_CONFERENCE_SERIES
+  - BANDUNG_1955: edition 1, held
+  - SECOND_AA_CONF_1965_PLANNED: edition 2, planned_postponed
+- NON_ALIGNED_SUMMIT_SERIES
+  - NAM_SUMMIT_3_1970: edition 3, held
+- UNGA_SESSION_SERIES
+  - UNGA_30_1975: edition 30, held
+- UNCTAD_SESSION_SERIES
+  - UNCTAD_III_1972: edition 3, held
+
+Special cases:
+- AAPSO_CONFERENCE_SERIES has event_status=series and no edition_number.
+- CULTURAL_REVOLUTION_1966_1976 has event_status=historical_process and no edition_number.
+
+Note:
+- parent_event_id values are series identifiers, not separate event rows yet. If needed later, they can become authority records in a separate event_series vocabulary.

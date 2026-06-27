@@ -1,0 +1,15 @@
+﻿B'.6.1.0.34 volume 4 AAPSO organizational structure update
+
+Created:
+- japanese_diplomatic_archives_tagged_v31_aapso_vol4_org_structure_checked.csv
+- controlled_vocabulary_keywords_v13.csv
+- aapso_volume_detail_review_queue_v02.csv
+
+Main record changes:
+- Volume 4 keeps organization_ids = AAPSO and event_ids = AAPSO_CONFERENCE_SERIES.
+- bloc_ids remains blank; bloc_assignment_status = RESOLVED_BLANK.
+- Added volume-specific notes for regional/domestic committees, standing committee, executive committee, and economic seminars.
+- Added keywords ORGANIZATIONAL_STRUCTURE, COMMITTEE_ACTIVITIES, ECONOMIC_SEMINAR, TRANSNATIONAL_POLITICAL_ORGANIZATION.
+
+Review queue:
+- AAPSO-VOL-4 set to PARTIALLY_RESOLVED pending extraction of individual seminar names, locations, years, and participants.

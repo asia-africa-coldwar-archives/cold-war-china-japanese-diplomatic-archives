@@ -1,0 +1,77 @@
+﻿bloc trial / review queue feedback v01
+
+対象ファイル:
+- japanese_diplomatic_archives_tagged_v05_bloc_trial.csv
+- bloc_review_queue_v01.csv
+
+全体評価:
+- 設計は良好。bloc_ids の付与をかなり抑制しており、地域名・会議名・国別態度から自動的に bloc を推定していない点がよい。
+- 70件中 bloc_ids 付与済みは6件、付与率8.6%。source-explicit 原則の語彙なので、この低さは妥当。
+- bloc_id の語彙参照切れはなし。
+- review_queue の archive_id は全件 trial CSV と対応しており、current_bloc_ids/title_jp の不一致もなし。
+
+統計:
+- trial rows: 70
+- assigned rows: 6
+- NO_BLOC_ASSIGNED: 64
+- ASSIGNED_SOURCE_EXPLICIT: 5
+- ASSIGNED_NEEDS_CONFIRMATION: 1
+- review queue rows: 15
+- priority: HIGH=2, MEDIUM=11, LOW=2
+
+付与済み bloc_ids の評価:
+1. 2013-0327 ニュー・ジーランド外交
+   - ASIAN_FREE_WORLD;ASIAN_COMMUNIST_BLOC
+   - 方針: 原文見出し「アジア自由圏」「アジア共産圏」を確認できれば維持。
+   - 修正推奨: original_terms に当該語を入れる。
+
+2. 2013-2435 中共・中近東、アフリカ諸国関係
+   - NON_ALIGNED_MOVEMENT
+   - 方針: 第三回非同盟諸国首脳会議など、非同盟性が原文で明示されるなら維持。
+   - 修正推奨: 確認までは ASSIGNED_NEEDS_CONFIRMATION のままが妥当。
+
+3. 2016-2224 中東情勢
+   - SOCIALIST_BLOC
+   - 方針: 「ソ連・共産圏諸国」が原文にあるなら維持。
+   - EASTERN_BLOC ではなく SOCIALIST_BLOC とした判断は妥当。
+
+4. 2013-3130 中共貿易/統計，資料（含、対日関係）
+   - SOCIALIST_BLOC
+   - 方針: 「共産圏諸国」が原文にあるなら維持。
+
+5. 2013-3131 中共対外経済援助
+   - SOCIALIST_BLOC
+   - 方針: 「共産圏諸国」が原文にあるなら維持。
+
+6. 2011-0193 UNCTAD第三回総会
+   - GROUP_OF_77;GROUP_B;ASIAN_GROUP;AFRICAN_GROUP
+   - 方針: UNCTADの交渉グループとして明示されるなら維持。
+   - これは organization_ids=UN;UNCTAD と併存させるのが正しい。
+
+レビューキューへのフィードバック:
+- BR-001, BR-002 は HIGH のままでよい。どちらも「付与済みだが original_terms に証拠語が保存されていない」問題。
+- BR-003 は判断保留。ICJ裁判官選挙ファイルで「共産圏諸国」が原文カテゴリなら candidate SOCIALIST_BLOC はあり得る。ただし単なる国別リストなら付与しない。
+- BR-004 から BR-007 の Bandung / Asian-African Conference 系は、原則 blank が妥当。会議名・地域枠だけで AFRO_ASIAN_BLOC を付けない。
+- BR-008 は AAPSO を organization_ids に置くのが主。AFRO_ASIAN_BLOC は、AAPSO外の広い政治的ブロックとして記述される場合のみ。
+- BR-009 から BR-013 の国連中国代表権問題は、地域別態度だけでは blank。African Group / Afro-Asian Bloc は、共同提案・共同投票・会合・共通立場が確認できる場合のみ。
+- BR-014, BR-015 は LOW で妥当。昼食会・招待・地域別整理だけでは bloc_ids を付けない。
+
+改善提案:
+1. bloc_evidence は原文語を必ず含める。
+   例: 「共産圏諸国」, 「アジア自由圏」, 「Bグループ」, 「77か国グループ」
+
+2. original_terms を bloc 付与の証拠欄として使う。
+   bloc_ids がある行では、できるだけ original_terms に対応語を入れる。
+
+3. bloc_assignment_status を3段階で運用する。
+   - ASSIGNED_SOURCE_EXPLICIT: 原文語あり
+   - ASSIGNED_NEEDS_CONFIRMATION: 過去分析・推定根拠はあるが原文未確認
+   - NO_BLOC_ASSIGNED: 付与しない
+
+4. review_queue に suggested_final_action 列を追加すると次工程が楽。
+   候補値: RETAIN_AFTER_ORIGINAL_TERM_ADDED, KEEP_BLANK_UNLESS_EXPLICIT, CONFIRM_SOURCE_TERM, DOWNGRADE_TO_NO_BLOC
+
+次の推奨工程:
+- HIGH 2件だけ先に原文確認。
+- 確認できたら original_terms を補強。
+- その後、trial CSV を v06_bloc_checked.csv として確定。

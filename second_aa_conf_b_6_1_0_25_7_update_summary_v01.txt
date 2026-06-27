@@ -1,0 +1,14 @@
+﻿B'.6.1.0.25-7 update
+
+Created:
+- japanese_diplomatic_archives_tagged_v28_second_aa_conf_participation_checked.csv
+- controlled_vocabulary_keywords_v12.csv
+
+Main record changes:
+- archive_id B'.6.1.0.25-7 bloc_ids left blank; bloc_assignment_status set to RESOLVED_BLANK.
+- event_ids set to SECOND_AA_CONF_1965_PLANNED.
+- PRC/ROC recognition competition emphasized through keywords and analytical notes.
+- entity_review_required set for AR, I, IV, TZ, ア連合, コンゴー, and Vietnam-related ambiguity.
+
+Vocabulary changes:
+- Added INVITATION and PARTICIPATION_INTENTION keywords.

@@ -1,0 +1,13 @@
+﻿B'.6.1.0.24 update
+
+Created:
+- japanese_diplomatic_archives_tagged_v23_bandung_b_6_1_0_24.csv
+- controlled_vocabulary_keywords_v09.csv
+
+Main record changes:
+- archive_id B'.6.1.0.24 bloc_ids left blank; bloc_assignment_status set to RESOLVED_BLANK.
+- event_ids confirmed as BANDUNG_1955.
+- Added POST_CONFERENCE_FOLLOW_UP and DIPLOMATIC_LIAISON to keyword coverage for post-1956 liaison/contact arrangements.
+
+Vocabulary changes:
+- Added keywords POST_CONFERENCE_FOLLOW_UP and DIPLOMATIC_LIAISON.

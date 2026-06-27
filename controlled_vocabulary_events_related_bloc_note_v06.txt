@@ -1,0 +1,42 @@
+﻿controlled_vocabulary_events_v06 update
+
+Added field:
+- related_bloc_ids_note
+
+Rule:
+- related_bloc_ids is a conceptual association only.
+- Do not automatically copy related_bloc_ids into record-level bloc_ids.
+- Record-level bloc_ids should be assigned only when the source explicitly treats the bloc/group as:
+  - a collective actor
+  - a common position
+  - a voting group
+  - a negotiating group
+  - a historical source category, such as 「アジア自由圏」 or 「共産圏諸国」
+
+Why this matters:
+- BANDUNG_1955 may be conceptually related to AFRO_ASIAN_BLOC, but Bandung records should not automatically receive AFRO_ASIAN_BLOC.
+- AAPSO_CONFERENCE_SERIES may be conceptually related to AFRO_ASIAN_BLOC, but AAPSO records should remain organization/event records unless bloc action is explicit.
+- UNCTAD_III_1972 is conceptually related to G77, Group B, Asian Group, and African Group, but record-level bloc_ids require source-explicit negotiating group evidence.
+- CULTURAL_REVOLUTION_1966_1976 is conceptually related to socialist/communist bloc categories, but those bloc_ids must not be assigned merely because the Cultural Revolution is tagged.
+
+Record-level check:
+- Existing event-tagged records already mostly follow this rule.
+- Bandung and AAPSO event rows do not automatically carry AFRO_ASIAN_BLOC in bloc_ids.
+
+Validation result:
+- event rows: 7
+- event rows with related_bloc_ids: 6
+- record rows with event_ids: 8
+- overlaps between event related_bloc_ids and record bloc_ids: 2
+
+Overlaps found and accepted:
+1. 2013-2435 / NAM_SUMMIT_3_1970 / NON_ALIGNED_MOVEMENT
+   - Accepted because bloc_evidence explicitly cites 「第三回非同盟諸国首脳会議」.
+
+2. 2011-0193 / UNCTAD_III_1972 / GROUP_OF_77;GROUP_B;ASIAN_GROUP;AFRICAN_GROUP
+   - Accepted because bloc_evidence explicitly identifies the negotiating groups in UNCTAD preparations.
+
+No problematic automatic copying found:
+- BANDUNG_1955 did not automatically copy AFRO_ASIAN_BLOC to record-level bloc_ids.
+- AAPSO_CONFERENCE_SERIES did not automatically copy AFRO_ASIAN_BLOC to record-level bloc_ids.
+- CULTURAL_REVOLUTION_1966_1976 has no record-level automatic SOCIALIST_BLOC / ASIAN_COMMUNIST_BLOC assignment.

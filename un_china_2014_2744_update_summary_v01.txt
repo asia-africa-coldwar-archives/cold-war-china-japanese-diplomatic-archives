@@ -1,0 +1,19 @@
+﻿2014-2744 update
+
+Created:
+- japanese_diplomatic_archives_tagged_v16_un_china_2014_2744.csv
+- controlled_vocabulary_keywords_v06.csv
+- controlled_vocabulary_entities_v05.csv
+
+Main record changes:
+- archive_id 2014-2744 updated with user-supplied entity_ids, reaction_region_ids, UN/UNGA, UNGA_26_1971, and analytical contexts.
+- bloc_ids left blank and bloc_assignment_status set to RESOLVED_BLANK.
+- entity_review_required added and set to CONGO_ENTITY_AMBIGUOUS.
+- keyword_ids convenience column added while preserving keyword_primary / keyword_secondary schema.
+
+Vocabulary changes:
+- Added voting/lobbying keywords: VOTING_BEHAVIOR, VOTE_COUNTING, DIPLOMATIC_LOBBYING, SUPPORT_REQUEST.
+- Added missing country entities: COL, VEN, ARG, ECU, MEX, BRA, PAN, PRY, URY, DOM, BOL, CHL, PER, CIV, GHA, MDG, SEN.
+
+Note:
+- FRENCH_COLONIAL_LEGACY_IN_AFRICA is assigned here because CIV, MDG, and SEN are former French colonial states. Congo remains ambiguous and requires source confirmation.

@@ -1,0 +1,23 @@
+﻿japanese_diplomatic_archives_tagged_v06_bloc_checked.csv / bloc_review_queue_v02.csv 作成概要
+
+反映した確認結果:
+1. 2013-0327 ニュー・ジーランド外交
+   - MOFA DA material-detail id=100-077384 の目次で確認。
+   - 原文: 「アジア自由圏・ASEAN」「アジア自由圏」「アジア共産圏」
+   - bloc_ids: ASIAN_FREE_WORLD;ASIAN_COMMUNIST_BLOC
+   - bloc_assignment_status: ASSIGNED_SOURCE_EXPLICIT
+   - bloc_confidence: HIGH
+   - BR-001: RESOLVED
+
+2. 2013-2435 中共・中近東、アフリカ諸国関係
+   - MOFA DA material-detail id=100-070338 の目次で確認。
+   - 原文: 「第三回非同盟諸国首脳会議」
+   - bloc_ids: NON_ALIGNED_MOVEMENT
+   - bloc_assignment_status: ASSIGNED_SOURCE_EXPLICIT
+   - bloc_confidence: HIGH
+   - BR-002: RESOLVED
+
+方針:
+- source-explicit 原則を維持。
+- 地域名・会議名・国別態度のみから bloc_ids を推定しない。
+- 原文確認済みの bloc については original_terms に根拠語を保存。

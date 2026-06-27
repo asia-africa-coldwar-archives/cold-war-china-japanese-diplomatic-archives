@@ -1,0 +1,14 @@
+﻿B'.6.1.0.24-2 MOFA material ID update
+
+Created:
+- japanese_diplomatic_archives_tagged_v27_bandung_mofa_material_ids.csv
+
+Change:
+- Added mofa_material_id, source_url, source_title_jp, and source_verified_note columns.
+- B'.6.1.0.24-2 volume 1 mapped to MOFA material id 100-013444.
+- B'.6.1.0.24-2 volume 2 mapped to MOFA material id 100-013445.
+- Preserved the archive_id + volume model.
+
+Source URLs:
+- https://da.mofa.go.jp/material-detail?id=100-013444
+- https://da.mofa.go.jp/material-detail?id=100-013445

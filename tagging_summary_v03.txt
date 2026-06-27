@@ -1,0 +1,17 @@
+Tagging v03 summary
+===================
+
+Records tagged: 70
+Output CSV: japanese_diplomatic_archives_tagged_v03.csv
+Keyword vocabulary: controlled_vocabulary_keywords_v03.csv
+Entity vocabulary: controlled_vocabulary_entities_v03.csv
+
+Main changes from v02:
+- Renamed original_term_ids to original_terms and added interpreted_entity_ids.
+- Added entities: MAR, ZAF, AUS, SGP, THA, SYR, ISR, KEN, CAF, BEN_DAH, OAU_ORG.
+- Added keywords: RECOG_COMP, RECOG_SWITCH, AFRICAN_AGENCY, YEAR_AFRICA, PAN_AFRICAN, OAU, LIBERATION, NEOCOL.
+- Corrected C'.1.1.0.1 as military service/conscription with Middle East-Africa country coverage.
+- Corrected C'.4.2.0.1 as armaments/nuclear weapons/arms race with Asia-Pacific, Middle East, and Africa country coverage.
+- Added TWN and recognition competition/switching tags to China representation and normalization records where appropriate.
+
+Validation: missing keywords=0, missing entities=0, missing regions=0

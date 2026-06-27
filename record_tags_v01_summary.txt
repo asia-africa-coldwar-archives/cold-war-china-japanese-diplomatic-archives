@@ -1,0 +1,41 @@
+﻿record_tags_v01 summary
+created_at: 2026-06-25 21:25:06 +09:00
+source: outputs/public_records_v01.csv
+public_records: 75
+record_tag_rows: 544
+unique_tag_ids: 168
+duplicate_record_tag_rows: 0
+review_flag_rows: 9
+
+tag_rows_by_type:
+  analytical_context: 23
+  bloc: 11
+  entity: 186
+  event: 20
+  keyword: 100
+  organization: 30
+  reaction_region: 44
+  region: 128
+  related_organization: 2
+
+top_tags_by_record_count:
+  entity / PRC: 42
+  region / ASIA: 34
+  region / MIDEAST: 28
+  region / AFRICA: 27
+  entity / JPN: 20
+  entity / ROC: 13
+  organization / UN: 12
+  region / GLOBAL: 11
+  region / AFRO_ASIA: 9
+  entity / IDN: 8
+  entity / IRN: 8
+  entity / IRQ: 8
+  entity / EGY: 7
+  entity / USA: 7
+  reaction_region / AFRICA: 7
+
+notes:
+- record_tags_v01.csv is a normalized join table for search/filter facets.
+- review_flags_v01.csv keeps ambiguous entity checks separate from public tags.
+- entity_review_required was not copied into record_tags_v01.csv because it is a curation workflow flag, not a descriptive tag.

@@ -1,0 +1,14 @@
+﻿record update summary: 100-030171
+created_at: 2026-06-25 22:33:20 +09:00
+added_record_id: mofa_100_030171
+title_jp: ビルマ・中共間外交関係雑集
+title_en: Miscellaneous Records on Burma-PRC Diplomatic Relations
+jacar_reference_code: B20010089700
+jacar_scale: 52
+keywords_added_to_vocab_v16: POLITICAL_WORK; INFLUENCE_OPERATIONS; PRC_BURMA_RELATIONS
+public_records_count: 77
+record_tags_count: 603
+public_tag_labels_v04_count: 194
+missing_public_tag_labels_v04_count: 0
+public_search_index_count: 77
+notes: Added with JACAR creator/organization metadata summarized in source_verified_note. Political work keyword added from user observation.

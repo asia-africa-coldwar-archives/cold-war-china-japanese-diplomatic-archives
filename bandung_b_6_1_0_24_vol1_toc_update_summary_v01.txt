@@ -1,0 +1,12 @@
+﻿bandung B'.6.1.0.24 vol1 TOC update summary
+created_at: 2026-06-25 22:40:20 +09:00
+updated_record_id: mofa_100_013436
+added_entities: LKA; LBY; NPL; LBR; DRV
+added_keywords: LIAISON_OFFICER_APPOINTMENT; CONFERENCE_FOLLOW_UP_MECHANISM
+updated focus: conference records and liaison officer appointment files
+missing_labels: 
+0
+public_records_count: 
+77
+public_search_index_count: 
+77

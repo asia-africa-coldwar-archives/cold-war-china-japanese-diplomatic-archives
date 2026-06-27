@@ -1,0 +1,29 @@
+﻿controlled_vocabulary_blocs_v02.csv 修正概要
+
+結論:
+- bloc_ids 語彙表は採用可能。
+- 地域(region_ids)、組織(organization_ids)、政治的・外交的集団(bloc_ids)の分離は適切。
+- THIRD_WORLD は分析キーワード、ARAB_WORLD は文化・地理的概念として扱い、bloc_id にはしない方針を維持。
+
+主な修正:
+1. NON_ALIGNED_MOVEMENT
+   - canonical ID は NON_ALIGNED_MOVEMENT のまま維持。
+   - 検索用 alias として Non-Aligned, non-aligned states, 非同盟 を追加。
+   - NON_ALIGNED は別IDではなく検索・表示上の短縮表現として扱う。
+
+2. AFRO_ASIAN_BLOC
+   - region_id AFRO_ASIA、organization_id AAPSO と区別する注記を追加。
+   - Bandung / Asian-African Conference 関係でも、集団的投票・交渉主体として明示されない限り自動付与しない。
+
+3. ARAB_STATES_GROUP
+   - ARAB_WORLD と区別する注記を補強。
+   - アラブ諸国が外交・投票・交渉上の集団として扱われる場合にのみ使用。
+
+整合性チェック:
+- duplicate bloc_id: none
+- missing broader_bloc_id: none
+- unknown related_region_ids: none
+- related_organization_ids: NATO and LAS require organization vocabulary support
+
+対応:
+- controlled_vocabulary_organizations_v02.csv に NATO と LAS を追加。

@@ -1,0 +1,15 @@
+﻿2015-2085 update
+
+Created:
+- japanese_diplomatic_archives_tagged_v20_un_china_2015_2085.csv
+- controlled_vocabulary_events_v11.csv
+
+Main record changes:
+- archive_id 2015-2085 bloc_ids left blank; bloc_assignment_status set to RESOLVED_BLANK.
+- reaction_region_ids set to ASIA;MIDEAST;AFRICA.
+- organization_ids set to UN;UNGA.
+- event_ids set to UNGA_25_1970;UNGA_26_1971.
+- UNGA_25_1970 is treated as the premise/background event; UNGA_26_1971 as the preparation target event.
+
+Vocabulary changes:
+- Added UNGA_25_1970 to event vocabulary.

@@ -1,0 +1,13 @@
+﻿B'.6.1.0.24-2 update
+
+Created:
+- japanese_diplomatic_archives_tagged_v25_bandung_foreign_attitudes_kashmir_princess.csv
+- controlled_vocabulary_events_v12.csv
+
+Main record changes:
+- archive_id B'.6.1.0.24-2 bloc_ids left blank; bloc_assignment_status set to RESOLVED_BLANK.
+- event_ids set to BANDUNG_1955;KASHMIR_PRINCESS_INCIDENT_1955.
+- Kashmir Princess Incident assigned because the file includes 「中共代表団乗用機墜落事件関係」 as an independent item.
+
+Vocabulary changes:
+- Added KASHMIR_PRINCESS_INCIDENT_1955 to event vocabulary.

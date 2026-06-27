@@ -1,0 +1,22 @@
+﻿AAPSO organization correction v08.1
+
+Files updated/created:
+- controlled_vocabulary_organizations_v03.csv
+- japanese_diplomatic_archives_tagged_v08_1_aapso_org_corrected.csv
+
+Organization vocabulary update:
+- AAPSO preferred_label_en: Afro-Asian People's Solidarity Organization
+- AAPSO preferred_label_jp: アジア・アフリカ人民連帯機構
+- organization_type: transnational political organization
+- aliases: AAPSO;アジア・アフリカ人民連帯会議;AA人民連帯会議
+
+Metadata correction:
+- B'.6.1.0.34 アジア・アフリカ人民連帯会議一件...
+  - organization_ids corrected to include AAPSO
+  - event_ids remains AAPSO_CONFERENCE_SERIES
+
+Layer distinction:
+- AAPSO = organization_id
+- AAPSO_CONFERENCE_SERIES = event_id
+- AFRO_ASIA = region_id
+- AFRO_ASIAN_BLOC = bloc_id only when coordinated bloc action is explicit

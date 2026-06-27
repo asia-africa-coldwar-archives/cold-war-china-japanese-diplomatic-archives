@@ -1,0 +1,6 @@
+Region vocabulary v01 summary
+=============================
+
+Regions defined: 14
+Tagged dataset: japanese_diplomatic_archives_tagged_v03_1.csv
+Missing region ids in tagged dataset: 0

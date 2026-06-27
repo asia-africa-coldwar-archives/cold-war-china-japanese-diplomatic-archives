@@ -1,0 +1,17 @@
+﻿B'.6.1.0.24-2 volume 2 update
+
+Created:
+- japanese_diplomatic_archives_tagged_v26_bandung_foreign_attitudes_vol2_vietminh.csv
+- controlled_vocabulary_organizations_v07.csv
+
+Main record changes:
+- Added volume column.
+- Preserved existing B'.6.1.0.24-2 volume 1 row, including KASHMIR_PRINCESS_INCIDENT_1955.
+- Added a separate B'.6.1.0.24-2 volume 2 row.
+- Volume 2 event_ids set to BANDUNG_1955 only.
+- Volume 2 bloc_ids left blank and marked RESOLVED_BLANK.
+- Volume 2 organization_ids set to VIET_MINH; related_organization_ids set to SEATO.
+- entity_review_required set to VIETNAM_ENTITY_AMBIGUOUS.
+
+Vocabulary changes:
+- Added VIET_MINH as national_liberation_movement in organizations.

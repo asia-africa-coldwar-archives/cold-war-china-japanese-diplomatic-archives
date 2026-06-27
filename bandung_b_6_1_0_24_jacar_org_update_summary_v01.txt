@@ -1,0 +1,8 @@
+﻿bandung B'.6.1.0.24 JACAR organization update summary
+created_at: 2026-06-25 22:43:07 +09:00
+updated_record_id: mofa_100_013436
+jacar_reference: B22010342700
+added_related_organizations: LAS; AA_CONF_JOINT_SECRETARIAT; INDONESIA_MFA; INDONESIA_CONSULATE_GENERAL_TOKYO
+new_organizations_added: AA_CONF_JOINT_SECRETARIAT; INDONESIA_MFA; INDONESIA_CONSULATE_GENERAL_TOKYO
+missing_labels: 0
+public_search_index_count: 77

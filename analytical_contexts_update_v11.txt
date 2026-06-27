@@ -1,0 +1,28 @@
+﻿Analytical contexts update v11
+
+Added vocabulary file:
+- controlled_vocabulary_analytical_contexts.csv
+
+Added record-level fields:
+- analytical_context_ids
+- analytical_context_notes
+
+Context IDs added:
+- COLD_WAR_IN_SOUTHEAST_ASIA
+- SOUTHEAST_ASIAN_COMMUNIST_POLITICS
+- SINO_SOVIET_RIVALRY_IN_SOUTHEAST_ASIA
+- PRC_VIETNAM_RIVALRY
+- REGIONAL_IDEOLOGICAL_CONFLICT
+
+Applied to:
+- archive_id: 2014-3472
+- title: 国連 カンボディア問題国際会議
+
+Design distinction:
+- keyword_secondary = topic/search terms visible in or strongly tied to the record
+- analytical_context_ids = interpretive frameworks for research use
+- bloc_ids = source-explicit collective actors/groups only
+
+Reason:
+- The Cambodia file should be findable under Cold War Southeast Asia, Southeast Asian communist politics, Sino-Soviet rivalry in Southeast Asia, PRC-Vietnam rivalry, and regional ideological conflict.
+- These should not be forced into bloc_ids because they are analytical contexts rather than source-explicit diplomatic blocs.

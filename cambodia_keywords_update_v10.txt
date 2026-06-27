@@ -1,0 +1,34 @@
+﻿Cambodia keywords update v10
+
+User question:
+- For archive_id 2014-3472, because the file covers the Cambodia question from 1981-06-27 to 1981-09-30, should it be searchable by Vietnam-Cambodia conflict, Southeast Asian communist parties/communism, etc.?
+
+Decision:
+- Yes, but these belong mainly in keyword_secondary, not bloc_ids.
+- The file should remain bloc_ids blank unless the body shows formal group action by African/Asian/Arab groups.
+
+Added keyword vocabulary:
+- VIETNAM_CAMBODIA_CONFLICT: ベトナム・カンボジア紛争
+- INDOCHINA_CONFLICT: インドシナ紛争
+- SOUTHEAST_ASIA_COMMUNISM: 東南アジア共産主義
+- ASEAN_DIPLOMACY: ASEAN外交
+
+Added entity vocabulary:
+- VNM: Vietnam / ベトナム
+- LAO: Laos / ラオス
+
+Added organization vocabulary:
+- ASEAN: Association of Southeast Asian Nations / 東南アジア諸国連合
+
+Updated record:
+- archive_id: 2014-3472
+- entity_ids: KHM;VNM;PRC
+- region_ids: ASIA;SOUTHEAST_ASIA
+- keyword_secondary: UN;CONFERENCE_DIPLOMACY;DIP;VIETNAM_CAMBODIA_CONFLICT;INDOCHINA_CONFLICT;SOUTHEAST_ASIA_COMMUNISM;ASEAN_DIPLOMACY;CW
+- organization_ids: UN;ASEAN
+- event_ids: CAMBODIA_INTL_CONFERENCE_1981
+- bloc_ids remains blank
+
+Interpretive note:
+- 「ベトナムとカンボジアの争い」「東南アジア共産主義」「ASEANの宣言案に対する中国の見解」は thematic/search tags.
+- They do not imply ASIAN_GROUP, ASEAN_MEMBERS, AFRO_ASIAN_BLOC, or other bloc_ids unless the source explicitly treats a group as a collective actor.

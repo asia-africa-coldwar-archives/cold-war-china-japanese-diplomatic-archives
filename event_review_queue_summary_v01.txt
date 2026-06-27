@@ -1,0 +1,24 @@
+﻿event_review_queue_v01 summary
+
+Purpose:
+- Create a review queue for the next event vocabulary expansion before adding new event_ids to controlled_vocabulary_events.
+- This queue separates confirmed/current event tags from candidate events that need date, TOC, or source confirmation.
+
+Candidate groups included:
+1. AAPSO individual conference names and years
+2. UNGA 36th Session
+3. 1981 Cambodia/Kampuchea International Conference
+4. Tricontinental Conference
+5. 1962 neutral six-country mediation / Colombo proposals in the Sino-Indian border conflict
+6. 1971 UN China representation decision / UNGA Resolution 2758
+
+Recommended workflow:
+- Confirm source wording and dates first.
+- Promote confirmed candidates into controlled_vocabulary_events_v07.csv.
+- Then assign event_ids at record level only where the archival record directly concerns the event.
+- Keep related_bloc_ids conceptual only; do not copy candidate related blocs into record-level bloc_ids.
+
+Priority notes:
+- HIGH candidates have direct or likely matches in the current dataset.
+- MEDIUM candidates need external/TOC search before assignment.
+

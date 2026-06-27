@@ -1,0 +1,8 @@
+﻿B'.6.1.0.24-2 volume 2 follow-up
+
+Created:
+- controlled_vocabulary_keywords_v11.csv
+- bandung_b_6_1_0_24_2_vol2_vietminh_update_summary_v02.txt
+
+Change:
+- Added NATIONAL_LIBERATION_MOVEMENT as a keyword because the volume 2 row uses it for Viet Minh / non-state liberation movement context.

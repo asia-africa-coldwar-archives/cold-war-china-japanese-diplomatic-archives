@@ -1,0 +1,20 @@
+﻿Bandung Japan position/security update
+
+Created:
+- japanese_diplomatic_archives_tagged_v24_bandung_japan_position_security.csv
+- controlled_vocabulary_keywords_v10.csv
+- controlled_vocabulary_analytical_contexts_v05.csv
+- controlled_vocabulary_organizations_v06.csv
+
+Main record changes:
+- Updated the existing archive_id spelling B'6.1.0.24-1-1.
+- event_ids set to BANDUNG_1955.
+- entity_ids set to JPN;PRC.
+- related_organization_ids added and set to SEATO; organization_ids left blank.
+- bloc_ids left blank and marked RESOLVED_BLANK.
+- Added requested keyword and analytical context IDs.
+
+Vocabulary changes:
+- Added SEATO organization.
+- Added security, military, nuclear, Japanese position, and policy preparation keywords.
+- Added three analytical contexts for Cold War Asian security architecture.
