@@ -1,0 +1,19 @@
+﻿public site downloads build summary
+created_at: 2026-06-26 11:20:05 +09:00
+downloads_dir: C:\Users\mikir\Documents\Codex\2026-06-15\files-mentioned-by-the-user-xlsx\public_site\downloads
+
+files:
+- public_records.csv: 77 rows, 40295 bytes
+- record_tags.csv: 622 rows, 35506 bytes
+- public_tag_labels.csv: 206 rows, 23689 bytes
+- public_search_index.csv: 77 rows, 136567 bytes
+- review_flags.csv: 14 rows, 1414 bytes
+- controlled_vocabulary_regions.csv: 21 rows, 11165 bytes
+- controlled_vocabulary_entities.csv: 84 rows, 19376 bytes
+- controlled_vocabulary_organizations.csv: 19 rows, 7695 bytes
+- controlled_vocabulary_events.csv: 12 rows, 15512 bytes
+- controlled_vocabulary_blocs.csv: 13 rows, 11245 bytes
+- controlled_vocabulary_keywords.csv: 112 rows, 34002 bytes
+- controlled_vocabulary_analytical_contexts.csv: 13 rows, 9266 bytes
+
+manifest: C:\Users\mikir\Documents\Codex\2026-06-15\files-mentioned-by-the-user-xlsx\public_site\downloads\manifest.csv

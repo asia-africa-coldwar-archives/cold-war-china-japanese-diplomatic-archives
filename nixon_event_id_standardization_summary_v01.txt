@@ -1,0 +1,15 @@
+﻿Nixon event ID standardization
+
+Created:
+- controlled_vocabulary_events_v10.csv
+- japanese_diplomatic_archives_tagged_v19_nixon_event_id_standardized.csv
+
+Changed:
+- NIXON_VISIT_TO_PRC_ANNOUNCEMENT_1971 -> NIXON_CHINA_VISIT_ANNOUNCEMENT_1971
+- preferred_label_jp -> ニクソン訪中発表
+- preferred_label_en -> Announcement of Nixon's Visit to China
+- event_type -> diplomatic_announcement
+- event_status -> held
+
+Note:
+- This event marks the July 15, 1971 announcement, not the February 1972 visit itself.

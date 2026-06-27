@@ -1,0 +1,14 @@
+﻿public site data build summary
+created_at: 2026-06-25 22:43:15 +09:00
+
+inputs:
+- C:\Users\mikir\Documents\Codex\2026-06-15\files-mentioned-by-the-user-xlsx\outputs\public_search_index_v01.csv
+- C:\Users\mikir\Documents\Codex\2026-06-15\files-mentioned-by-the-user-xlsx\outputs\public_records_v01.csv
+
+outputs:
+- C:\Users\mikir\Documents\Codex\2026-06-15\files-mentioned-by-the-user-xlsx\public_site\data\search_index.js
+- C:\Users\mikir\Documents\Codex\2026-06-15\files-mentioned-by-the-user-xlsx\public_site\data\public_records.js
+
+row_counts:
+- SEARCH_INDEX: 77
+- PUBLIC_RECORDS: 77

@@ -1,0 +1,19 @@
+﻿public_tag_labels_v02 summary
+created_at: 2026-06-25 21:41:45 +09:00
+changes:
+- Updated CHN_AMBIG public label to China Representation and Recognition Competition / 中国代表権・承認競争.
+- Added INTERNATIONAL_ORGANIZATION_ELECTIONS and JUDICIAL_ELECTIONS to controlled_vocabulary_keywords_v14.csv.
+used_unique_tags: 168
+public_label_rows: 168
+missing_label_rows: 0
+
+label_rows_by_type:
+  analytical_context: 13
+  bloc: 8
+  entity: 51
+  event: 11
+  keyword: 45
+  organization: 11
+  reaction_region: 17
+  region: 11
+  related_organization: 1

@@ -1,0 +1,18 @@
+﻿AAPSO organization vocabulary update v03
+
+Updated organization_id:
+- AAPSO
+
+Applied values:
+- preferred_label_en: Afro-Asian People's Solidarity Organization
+- preferred_label_jp: アジア・アフリカ人民連帯機構
+- organization_type: transnational political organization
+- aliases: AAPSO;アジア・アフリカ人民連帯会議;AA人民連帯会議
+
+Reason:
+- The previous AAPSO row had mojibake in aliases and used a less precise organization_type.
+- This update separates:
+  - organization_id AAPSO = organization authority
+  - event_id AAPSO_CONFERENCE_SERIES = conference/event series
+  - region_id AFRO_ASIA = Afro-Asian diplomatic space
+  - bloc_id AFRO_ASIAN_BLOC = coordinated political/diplomatic bloc only when explicit

@@ -1,0 +1,12 @@
+﻿public site verify report
+created_at: 2026-06-26 12:39:56 +09:00
+node: C:\Users\mikir\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe
+
+INFO public_search_index_csv_rows: 77 expected 75 or current source count
+INFO public_records_csv_rows: 77 expected 75 or current source count
+PASS search_index_js_rows_match_csv: 77 expected 77
+PASS public_records_js_rows_match_csv: 77 expected 77
+PASS app_js_syntax: ok expected ok
+PASS record_js_syntax: ok expected ok
+PASS china_representation_label_present: True expected True
+PASS detail_example_record_present: True expected True

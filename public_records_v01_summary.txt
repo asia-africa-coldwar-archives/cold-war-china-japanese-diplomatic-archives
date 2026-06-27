@@ -1,0 +1,23 @@
+﻿public_records_v01
+
+Created:
+- public_records_v01.csv
+- public_records_schema_v01.csv
+
+Purpose:
+- One row per public-facing archival record.
+- Supports search result cards and individual record detail pages.
+- Keeps tag IDs in semicolon-separated fields for v01; record_tags_v01.csv will later convert them to long format for filtering.
+
+Stats:
+- total_public_records: 75
+- with_record_id: 75
+- with_mofa_material_id: 75
+- with_source_url: 75
+- with_title_en: 75
+- with_primary_subject_jp: 15
+- blank_years: 75
+- duplicate_record_ids: 0
+
+Note:
+- years is intentionally blank in v01. It should be enriched later from MOFA API kaishiYmd/shuryoYmd or manually curated coverage years.

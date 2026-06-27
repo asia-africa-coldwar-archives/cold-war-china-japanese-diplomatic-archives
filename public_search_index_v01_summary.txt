@@ -1,0 +1,18 @@
+﻿public_search_index_v01 summary
+created_at: 2026-06-25 21:44:12 +09:00
+sources:
+- outputs/public_records_v01.csv
+- outputs/record_tags_v01.csv
+- outputs/public_tag_labels_v02.csv
+records: 75
+blank_title_en: 0
+blank_search_text_all: 0
+records_with_event_labels: 17
+records_with_keyword_labels: 14
+records_with_analytical_context_labels: 7
+
+review_focus:
+- Open public_search_index_v01.csv and inspect title_jp/title_en/search_text_all for public search behavior.
+- Check whether tag labels are useful as visible facets: region/entity/event/keyword/analytical_context.
+- Pay special attention to records on China representation, Bandung/AAPSO, UNGA, Cambodia, and ICJ elections.
+- Empty years remain expected in v01; fill years later from MOFA start/end dates or source metadata.

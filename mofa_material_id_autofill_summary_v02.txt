@@ -1,0 +1,25 @@
+﻿MOFA material_id autofill v02
+
+Created:
+- japanese_diplomatic_archives_tagged_v33_mofa_material_id_autofilled.csv
+- japanese_diplomatic_archives_records_normalized_v02.csv
+- mofa_material_id_lookup_results_v02.csv
+- mofa_material_id_review_queue_v02.csv
+
+Method:
+- Used MOFA API POST https://api.da.mofa.go.jp/archives/search
+- Search target: bunruiNo
+- Match type: exact
+- Automatically applied only one-to-one exact bunruiNo matches.
+- Multiple matches and no matches were placed in review queue.
+
+Stats:
+- total_records: 74
+- previous_mofa_ids: 6
+- auto_filled_now: 60
+- total_mofa_ids_after: 66
+- legacy_fallback_remaining: 8
+- multiple_match_review: 6
+- no_match: 2
+- error: 0
+- duplicate_record_ids: 0

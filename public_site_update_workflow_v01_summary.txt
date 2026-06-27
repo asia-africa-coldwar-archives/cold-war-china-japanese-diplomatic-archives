@@ -1,0 +1,29 @@
+﻿public site update workflow v01 summary
+created_at: 2026-06-25 22:10:11 +09:00
+
+created_files:
+- scripts/build_public_site_data.ps1
+- scripts/verify_public_site.ps1
+- scripts/README.md
+
+workflow:
+1. Update source CSVs in outputs.
+2. Run: powershell -ExecutionPolicy Bypass -File .\scripts\build_public_site_data.ps1
+3. Run: powershell -ExecutionPolicy Bypass -File .\scripts\verify_public_site.ps1
+4. Open public_site/index.html and spot-check search/detail pages.
+
+build_outputs:
+- public_site/data/search_index.js
+- public_site/data/public_records.js
+- outputs/public_site_data_build_summary.txt
+
+verify_outputs:
+- outputs/public_site_verify_report.txt
+
+latest_verification:
+- search_index_js_rows_match_csv: PASS
+- public_records_js_rows_match_csv: PASS
+- app_js_syntax: PASS
+- record_js_syntax: PASS
+- china_representation_label_present: PASS
+- detail_example_record_present: PASS

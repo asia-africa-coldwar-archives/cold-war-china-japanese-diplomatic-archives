@@ -1,0 +1,21 @@
+﻿public site filter/ui update v01 summary
+created_at: 2026-06-26 10:55:45 +09:00
+
+updated_files:
+- public_site/index.html
+- public_site/app.js
+- public_site/styles.css
+
+changes:
+- Added Keyword filter.
+- Added Organization filter using both organization_labels_jp and related_organization_labels_jp.
+- Simplified list cards to show compact metadata and limited visible chips with +N overflow.
+- Kept Details and MOFA actions visible on each card.
+- Fixed visible mojibake in index/app scripts.
+- Updated filters grid to responsive auto-fit columns.
+
+verification:
+- app.js syntax: PASS
+- record.js syntax: PASS
+- mojibake scan for key files: PASS
+- verify_public_site.ps1: PASS

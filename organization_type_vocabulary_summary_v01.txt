@@ -1,0 +1,27 @@
+﻿controlled_vocabulary_organization_types.csv summary
+
+Created organization type authority vocabulary from the user-proposed categories:
+- political_party
+- government_in_exile
+- national_liberation_movement
+- united_front
+- armed_movement
+- international_organization
+- negotiating_coalition
+
+Design choice:
+- organization_type_id is the normalized controlled field.
+- organization_type remains the legacy/free-text detail field, e.g. UN organ, UN specialized agency, military alliance, transnational political organization.
+
+Important distinction:
+- negotiating_coalition can overlap with bloc_ids.
+- In this database, Group of 77, Group B, African Group, Asian Group, and similar groups are usually better kept as bloc_ids unless a separate organization authority record is intentionally created.
+
+Existing organization vocabulary update:
+- Created controlled_vocabulary_organizations_v04_type_checked.csv.
+- Existing formal organizations are currently normalized as organization_type_id=international_organization.
+- AAPSO remains organization_type=transnational political organization, with normalized organization_type_id=international_organization because it is an organization authority record rather than a bloc record.
+
+Future use:
+- Add national_liberation_movement / armed_movement entries when named movements such as MPLA, FRELIMO, PAIGC, etc. are added.
+- Add government_in_exile or united_front only when source wording supports those forms.

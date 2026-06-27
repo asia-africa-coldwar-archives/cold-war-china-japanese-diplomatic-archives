@@ -1,0 +1,20 @@
+﻿MOFA material_id resolution v03
+
+Created:
+- japanese_diplomatic_archives_tagged_v34_mofa_material_id_resolved.csv
+- japanese_diplomatic_archives_records_normalized_v03.csv
+- mofa_material_id_review_queue_v03.csv
+
+Resolution:
+- Resolved all remaining legacy fallback rows to MOFA material_id.
+- Split A'.2.4.1.C(C))1-1 combined local row into two MOFA volume-level rows using corrected bunruiNo A'.2.4.1.C(C)1-1.
+- Corrected local B'6.1.0.24-1-1 to MOFA bunruiNo B'.6.1.0.24-1-1.
+- Added sibling-volume review queue for MOFA volumes not currently represented in this dataset.
+
+Stats:
+- total_records: 75
+- total_mofa_ids: 75
+- legacy_fallback_remaining: 0
+- duplicate_record_ids: 0
+- split_rows_added: 1
+- sibling_review_items: 7

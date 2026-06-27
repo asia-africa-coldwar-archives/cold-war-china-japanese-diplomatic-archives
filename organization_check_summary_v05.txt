@@ -1,0 +1,10 @@
+Organization check v05
+======================
+
+Input: japanese_diplomatic_archives_tagged_v04_region_checked.csv
+Output: japanese_diplomatic_archives_tagged_v05_org_checked.csv
+Records: 70
+Organization vocabulary records: 11
+Organization IDs used: 10 (AAPSO;EC;ECAFE;ICJ;UN;UNCTAD;UNGA;UNSC;UNU;WMO)
+Records changed: 8
+Missing organization IDs: 0

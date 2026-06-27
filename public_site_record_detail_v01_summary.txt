@@ -1,0 +1,33 @@
+﻿public_site record detail v01 summary
+created_at: 2026-06-25 22:01:00 +09:00
+
+created_or_updated_files:
+- public_site/record.html
+- public_site/record.js
+- public_site/app.js
+- public_site/styles.css
+- public_site/data/public_records.js
+- public_site/README.md
+
+features:
+- Search result cards now include a Details link.
+- Detail page supports record.html?id=<record_id>.
+- Detail page shows basic metadata, public labels, source verification note, search text, and official MOFA link.
+- Fixed mojibake in app.js labels and empty-result message.
+
+verification:
+- app.js syntax check passed.
+- record.js syntax check passed.
+- search_index.js records: 75
+- public_records.js records: 75
+- source_verified_note available for mofa_100_013444.
+
+review_examples:
+- public_site/record.html?id=mofa_100_013444
+- public_site/record.html?id=mofa_100_050902
+- public_site/record.html?id=mofa_100_006897
+
+what_to_review:
+- Whether the detail page shows enough provenance for research use.
+- Whether Source Verification Note should be public-facing or placed under a smaller technical/provenance heading.
+- Whether Search Text should remain visible or be hidden later after testing.

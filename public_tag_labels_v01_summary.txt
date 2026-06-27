@@ -1,0 +1,28 @@
+﻿public_tag_labels_v01 summary
+created_at: 2026-06-25 21:30:01 +09:00
+source: outputs/record_tags_v01.csv plus controlled vocabulary CSVs
+used_unique_tags: 168
+public_label_rows: 168
+missing_label_rows: 2
+
+label_rows_by_type:
+  analytical_context: 13
+  bloc: 8
+  entity: 51
+  event: 11
+  keyword: 45
+  organization: 11
+  reaction_region: 17
+  region: 11
+  related_organization: 1
+
+missing_labels:
+  keyword / INTERNATIONAL_ORGANIZATION_ELECTIONS: 1
+  keyword / JUDICIAL_ELECTIONS: 1
+
+review_focus:
+- Check whether Japanese public labels are natural enough for website facets.
+- Check politically sensitive entity labels such as PRC, ROC, Taiwan, Vietnam, Congo, South Africa.
+- Check event labels where series/edition/status matters, especially Bandung, AAPSO, UNGA, NAM, Cultural Revolution.
+- Check analytical_context labels because these are interpretive rather than archival source terms.
+- Missing labels must be added to controlled vocabulary before public release.

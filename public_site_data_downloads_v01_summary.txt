@@ -1,0 +1,32 @@
+﻿public site data downloads v01 summary
+created_at: 2026-06-26 11:20:44 +09:00
+
+created_or_updated_files:
+- public_site/data.html
+- public_site/downloads/*.csv
+- scripts/build_downloads.ps1
+- public_site/index.html
+- public_site/about.html
+- public_site/record.html
+- public_site/styles.css
+
+download_files:
+- public_records.csv
+- record_tags.csv
+- public_tag_labels.csv
+- public_search_index.csv
+- review_flags.csv
+- controlled_vocabulary_regions.csv
+- controlled_vocabulary_entities.csv
+- controlled_vocabulary_organizations.csv
+- controlled_vocabulary_events.csv
+- controlled_vocabulary_blocs.csv
+- controlled_vocabulary_keywords.csv
+- controlled_vocabulary_analytical_contexts.csv
+- manifest.csv
+
+verification:
+- build_downloads.ps1: PASS
+- manifest rows: 12 downloadable source files
+- mojibake scan: PASS
+- verify_public_site.ps1: PASS

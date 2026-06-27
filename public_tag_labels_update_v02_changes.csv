@@ -1,0 +1,7 @@
+﻿"file","id","field","old_value","new_value"
+"controlled_vocabulary_entities_v06.csv","CHN_AMBIG","preferred_label_en","China (ambiguous/representation question)","China Representation and Recognition Competition"
+"controlled_vocabulary_entities_v06.csv","CHN_AMBIG","preferred_label_jp","中国（曖昧／代表権問題）","中国代表権・承認競争"
+"controlled_vocabulary_entities_v06.csv","CHN_AMBIG","use_when","Use only when the source title or document uses 中国/China and the intended entity cannot be resolved, or when the record is about the China representation question itself.","Use when a record concerns a transitional or contested situation in which PRC, ROC/Taiwan, or the China seat/representation cannot be treated as a single settled entity, especially in diplomatic recognition, normalization, or UN representation contexts."
+"controlled_vocabulary_entities_v06.csv","CHN_AMBIG","notes","Use only when 中国/China is ambiguous or when the record is about the China seat/representation issue as such. Do not use as a normal country tag.","Public label intentionally emphasizes contested representation and recognition competition, not mere data ambiguity. Do not use when the source clearly refers only to PRC or only to ROC/Taiwan."
+"controlled_vocabulary_keywords_v14.csv","INTERNATIONAL_ORGANIZATION_ELECTIONS","new_keyword","","International Organization Elections / 国際機関選挙"
+"controlled_vocabulary_keywords_v14.csv","JUDICIAL_ELECTIONS","new_keyword","","Judicial Elections / 裁判官選挙"

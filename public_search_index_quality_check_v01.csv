@@ -1,0 +1,8 @@
+﻿"check","count","note"
+"total_records","75","Should match public_records_v01.csv."
+"blank_title_en","0","Should be 0 before public launch."
+"blank_search_text_all","0","Should be 0."
+"records_with_event_labels","17","Event coverage."
+"records_with_keyword_labels","14","Keyword coverage."
+"records_with_analytical_context_labels","7","Interpretive search coverage."
+"records_with_china_representation_competition","3","CHN_AMBIG public label coverage."

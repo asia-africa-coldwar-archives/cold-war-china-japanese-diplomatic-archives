@@ -1,0 +1,28 @@
+﻿public_site prototype v01 summary
+created_at: 2026-06-25 21:51:54 +09:00
+
+created_files:
+- public_site/index.html
+- public_site/styles.css
+- public_site/app.js
+- public_site/data/search_index.js
+- public_site/README.md
+
+data_source:
+- outputs/public_search_index_v01.csv
+
+verification:
+- JavaScript syntax check passed using bundled Node.js.
+- search_index.js loaded successfully.
+- loaded records: 75
+- CHN_AMBIG public label appears in search data as 中国代表権・承認競争 / China Representation and Recognition Competition.
+
+what_to_review:
+- Open public_site/index.html in a browser.
+- Search: 中国代表権, 承認競争, バンドン, AAPSO, UNGA, カンボディア, ICJ, PRC, ROC.
+- Check whether record cards show enough information for a first public list page.
+- Check whether region/entity/event filters feel useful or need keyword/organization filters too.
+- Check whether MOFA record links open the expected official material pages.
+
+next_possible_step:
+- Add a record detail page or add keyword/organization filters to the list page.
