@@ -1,0 +1,13 @@
+downloads/manifest.csv
+downloads/public_records.csv
+downloads/public_search_index.csv
+downloads/public_tag_labels.csv
+downloads/record_tags.csv
+downloads/review_flags.csv
+downloads/controlled_vocabulary_regions.csv
+downloads/controlled_vocabulary_entities.csv
+downloads/controlled_vocabulary_organizations.csv
+downloads/controlled_vocabulary_events.csv
+downloads/controlled_vocabulary_blocs.csv
+downloads/controlled_vocabulary_keywords.csv
+downloads/controlled_vocabulary_analytical_contexts.csv
